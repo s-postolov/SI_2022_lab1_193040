@@ -1,5 +1,5 @@
-Bread
-Flour
-Sunflower oil
-Sugar
-Salt
+Bread x 2
+Flour x 1
+Sunflower oil x 3
+Sugar x2
+Salt x2

@@ -1,0 +1,69 @@
+git init - го иницијализираме директориумот
+
+git add README.md - додаден README.md документ на staging area
+
+git status - приказ на работното дрво
+
+git commit -m "Initial commit" - commit на фајловите на staging area во git directory со пораката "Initial commit"
+
+git remote add origin https://github.com/s-postolov/SI_2022_lab1_193040.git - додавање на remote репозиториум
+
+git remote -v - преглед на remote гранки
+
+git add shopping_list.txt - додаден shopping_list.txt на staging area
+
+git commit -m "Add 5 items to the shopping list" - commit на фајловите на staging area во git directory со пораката "Add 5 items to the shopping list"
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Add quantities to the items." - commit на фајловите на staging area во git directory со пораката "Add quantities to the items."
+
+git branch branch1 - креирање на нова гранка со името "branch1"
+
+git branch branch2 - креирање на нова гранка со името "branch2"
+
+git push -u origin master - додавање на master гранката кон remote репозиториумот
+
+git push -u branch1 - додавање на branch1 гранката кон remote репозиториумот
+
+git push -u branch2 - додавање на branch2 гранката кон remote репозиториумот
+
+git checkout branch1 - префрлување од master до branch1 гранката
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Change quantity of item#5" - commit на фајловите на staging area во git directory со пораката "Change quantity of item#5" 
+
+git checkout master - префрлување од master до branch2 гранката
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Change quantity of item #2" - commit на фајловите на staging area во git directory со пораката "Change quantity of item #2"
+
+git push - синхронизирани промените на локален master со origin master
+
+git checkout branch1 - префрлување од master до branch1 гранката 
+
+git push - синхронизирани промените на локален branch1 со origin branch1
+
+git checkout branch2 - префрлување од branch1 до branch2 гранката
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Modify item #4" - commit на фајловите на staging area во git directory со пораката "Modify item #4"
+
+git reset --soft HEAD~ - навраќање на HEAD покажувачот еден наназад со зачувани промени
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Modify item #4 and add item #6" - commit на фајловите на staging area во git directory со пораката "Modify item #4 and add item #6"
+
+git checkout master - префрлување од branch2 до master гранката
+
+git merge branch1 - спојување на branch1 со master без конфликти користејќи 'recursive' strategy
+
+git merge branch2 - спојување на branch2 со master со конфликти користејќи 
+
+git add shopping_list.txt - додаден shopping_list.txt документ на staging area
+
+git commit -m "Merge branch 'branch2'" - commit на фајловите на staging area во git directory со пораката "Merge branch 'branch2'"

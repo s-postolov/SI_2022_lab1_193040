@@ -1,5 +1,6 @@
 Bread x 2
 Flour x 1
 Sunflower oil x 3
-Sugar x2
+Sugar x1
 Salt x2
+Eggs x 20
